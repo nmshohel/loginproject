@@ -1,0 +1,14 @@
+
+{% extends 'loginprojectapp/base.html' %}
+    {% block content%}
+
+    <p>{{user_profile.username}}</p>
+<p>{{user_profile.email}}</p>
+<p>{{user_info_profile.facebook_id}}</p>
+<img src="{{ user_info_profile.profile_pic.url }}" alt="Admin" class="rounded-circle" width="150">
+
+
+
+    {% endblock %}
+
+    
